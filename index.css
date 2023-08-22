@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Heebo:wght@800&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background: url(bg.jpg.jpg) no-repeat center center fixed;
+   
+    background-size:cover;
+
+}
+.container{
+    
+    
+    position: absolute;
+    top:35%;
+    left:50%;
+}
+.container h1{
+    font-family: 'Great Vibes', cursive;
+    display:inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    margin-bottom: 33px;
+    padding:13px 0;
+}
+.box{
+    width:100%;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 22px 0px;
+    
+    
+}
+.box input{
+    font-family: 'Heebo', sans-serif;
+    background: none;
+    width:75%;
+    
+    padding:5px 10px;
+    font-size: 20px;
+    outline: none;
+    border:none;
+    color:rgb(0, 0, 0);
+
+}
+.box i{
+    width:25px;
+    
+    
+    
+    text-align: center;
+}
+.btn{
+    font-size: 15px;
+    padding :5px 5px;
+}
+.btn:hover{
+    opacity:0.5;
+    color:black;
+    
+    
+    background:white;
+
+
+}
